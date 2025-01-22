@@ -1,0 +1,3 @@
+# F# Unexpected Mutation Bug
+
+This repository demonstrates a common error in F#: unexpected mutation behavior in functions that take mutable parameters. The function `add` modifies its input variables `x` and `y` internally, leading to unexpected side effects and making the function's behavior harder to understand and reason about.  The solution shows how to avoid this issue by using immutable values and returning new values instead.
